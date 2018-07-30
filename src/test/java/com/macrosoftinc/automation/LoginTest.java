@@ -14,5 +14,6 @@ public class LoginTest {
 		driver.manage().window().maximize();
 		System.out.println("Welcome to Jenkins");
 		Thread.sleep(3000);
+		driver.quit();
 	}
 }
