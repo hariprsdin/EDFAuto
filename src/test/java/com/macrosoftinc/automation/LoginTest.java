@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class LoginTest {
 
 	@Test
-	public void LoginClient() throws Exception {
+	public static void LoginClient() throws Exception {
 		try {
 			System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
