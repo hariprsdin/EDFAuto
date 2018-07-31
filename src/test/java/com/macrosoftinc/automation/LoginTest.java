@@ -7,20 +7,20 @@ import org.testng.annotations.Test;
 public class LoginTest {
 
 	@Test
-	public boolean LoginClient() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+	public void LoginClient() throws Exception {
 		try {
+			System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
 			driver.get("http://teammigrate:18080");
 			driver.manage().window().maximize();
 			System.out.println("Welcome to Jenkins");
 			Thread.sleep(3000);
 			driver.quit();
-			return true;
+			
 
 		} catch (Exception e) {
 			System.out.println(e);
-			return false;
+			
 		}
 
 	}
