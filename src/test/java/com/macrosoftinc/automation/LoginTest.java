@@ -2,6 +2,7 @@ package com.macrosoftinc.automation;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest {
@@ -15,6 +16,7 @@ public class LoginTest {
 			driver.manage().window().maximize();
 			System.out.println("Welcome to Jenkins");
 			Thread.sleep(3000);
+			 Assert.assertEquals("Log In – Perficient Wiki", driver.getTitle());
 			driver.quit();
 		} catch (Exception e) {
 			System.out.println(e);
