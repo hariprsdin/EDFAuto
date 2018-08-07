@@ -11,16 +11,13 @@ public class LoginTest {
 		try {
 			System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
-			driver.get("http://teammigrate:18080");
+			driver.get("https://www.google.co.in/");
 			driver.manage().window().maximize();
 			System.out.println("Welcome to Jenkins");
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			driver.quit();
-			
-
 		} catch (Exception e) {
 			System.out.println(e);
-			
 		}
 
 	}
