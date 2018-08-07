@@ -14,7 +14,7 @@ public class LoginTest {
 			driver.get("https://www.google.co.in/");
 			driver.manage().window().maximize();
 			System.out.println("Welcome to Jenkins");
-			Thread.sleep(4000);
+			Thread.sleep(3000);
 			driver.quit();
 		} catch (Exception e) {
 			System.out.println(e);
