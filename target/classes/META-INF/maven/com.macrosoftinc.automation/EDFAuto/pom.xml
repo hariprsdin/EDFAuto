@@ -44,9 +44,14 @@
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.21.0</version>
 			<type>maven-plugin</type>
-			
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.maven.reporting</groupId>
+			<artifactId>maven-reporting-api</artifactId>
+			<version>3.0</version>
 		</dependency>
 
 	</dependencies>
-	
+
 </project>
