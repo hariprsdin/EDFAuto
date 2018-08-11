@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20499" started-at="2018-08-03T07:55:11Z" finished-at="2018-08-03T07:55:31Z">
+  <suite name="Default suite" duration-ms="35012" started-at="2018-08-11T11:41:49Z" finished-at="2018-08-11T11:42:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20499" started-at="2018-08-03T07:55:11Z" finished-at="2018-08-03T07:55:31Z">
+    <test name="Default test" duration-ms="35012" started-at="2018-08-11T11:41:49Z" finished-at="2018-08-11T11:42:24Z">
       <class name="com.macrosoftinc.automation.LoginTest">
-        <test-method status="PASS" signature="LoginClient()[pri:0, instance:com.macrosoftinc.automation.LoginTest@2ac273d3]" name="LoginClient" duration-ms="20398" started-at="2018-08-03T07:55:11Z" finished-at="2018-08-03T07:55:31Z">
+        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@710726a3]" name="LoginCase1" duration-ms="23550" started-at="2018-08-11T11:41:49Z" finished-at="2018-08-11T11:42:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginClient -->
+        </test-method> <!-- LoginCase1 -->
+        <test-method status="PASS" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@710726a3]" name="LoginCase2" duration-ms="11431" started-at="2018-08-11T11:42:12Z" finished-at="2018-08-11T11:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCase2 -->
       </class> <!-- com.macrosoftinc.automation.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
