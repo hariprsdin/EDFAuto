@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.macrosoftinc.automation.LoginTest" duration-ms="35207" started-at="2018-08-13T14:10:28Z" finished-at="2018-08-13T14:11:04Z">
+  <suite name="com.macrosoftinc.automation.LoginTest" duration-ms="37391" started-at="2018-08-13T14:20:15Z" finished-at="2018-08-13T14:20:52Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="35207" started-at="2018-08-13T14:10:28Z" finished-at="2018-08-13T14:11:04Z">
+    <test name="Command line test" duration-ms="37391" started-at="2018-08-13T14:20:15Z" finished-at="2018-08-13T14:20:52Z">
       <class name="com.macrosoftinc.automation.LoginTest">
-        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase1" duration-ms="21020" started-at="2018-08-13T19:40:29Z" finished-at="2018-08-13T19:40:50Z">
+        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase1" duration-ms="22146" started-at="2018-08-13T19:50:15Z" finished-at="2018-08-13T19:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCase1 -->
-        <test-method status="PASS" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase2" duration-ms="14172" started-at="2018-08-13T19:40:50Z" finished-at="2018-08-13T19:41:04Z">
+        <test-method status="PASS" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase2" duration-ms="15214" started-at="2018-08-13T19:50:37Z" finished-at="2018-08-13T19:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCase2 -->
