@@ -40,7 +40,7 @@ public static WebDriver driver;
 		String actualTitle = driver.getTitle();
 		String expectedTitle = "MyTitle";
 		//assertTrue(driver.findElement(By.id("Test")).isEnabled());
-		//assertEquals(actualTitle, expectedTitle);
+		assertEquals(actualTitle, expectedTitle);
 		driver.close();
 	}
 	

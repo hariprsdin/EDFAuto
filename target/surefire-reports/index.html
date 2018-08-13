@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-com.macrosoftinc.automation.LoginTest">
-              <span class="suite-name border-passed">com.macrosoftinc.automation.LoginTest</span>
+              <span class="suite-name border-failed">com.macrosoftinc.automation.LoginTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-com.macrosoftinc.automation.LoginTest" class="hide-methods failed suite-com.macrosoftinc.automation.LoginTest"> (hide)</a> <!-- hide-methods failed suite-com.macrosoftinc.automation.LoginTest -->
+                      <a href="#" panel-name="suite-com.macrosoftinc.automation.LoginTest" class="show-methods failed suite-com.macrosoftinc.automation.LoginTest"> (show)</a> <!-- show-methods failed suite-com.macrosoftinc.automation.LoginTest -->
+                    </span>
+                    <div class="method-list-content failed suite-com.macrosoftinc.automation.LoginTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.macrosoftinc.automation.LoginTest" title="com.macrosoftinc.automation.LoginTest" hash-for-method="LoginCase2">LoginCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-com.macrosoftinc.automation.LoginTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.macrosoftinc.automation.LoginTest" title="com.macrosoftinc.automation.LoginTest" hash-for-method="LoginCase1">LoginCase1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.macrosoftinc.automation.LoginTest" title="com.macrosoftinc.automation.LoginTest" hash-for-method="LoginCase2">LoginCase2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com.macrosoftinc.automation.LoginTest -->
@@ -121,6 +130,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.macrosoftinc.automation.LoginTest" class="panel com.macrosoftinc.automation.LoginTest">
+          <div class="suite-com.macrosoftinc.automation.LoginTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.macrosoftinc.automation.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginCase2">
+                  </a> <!-- LoginCase2 -->
+                  <span class="method-name">LoginCase2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [MyTitle] but found [eDriver Client Application]
+	at com.macrosoftinc.automation.LoginTest.LoginCase2(LoginTest.java:43)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.macrosoftinc.automation.LoginTest-class-failed -->
           <div class="suite-com.macrosoftinc.automation.LoginTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -132,13 +160,6 @@
                   <a name="LoginCase1">
                   </a> <!-- LoginCase1 -->
                   <span class="method-name">LoginCase1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginCase2">
-                  </a> <!-- LoginCase2 -->
-                  <span class="method-name">LoginCase2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,18 +217,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginCase1')
+data.setCell(0, 1, 'LoginCase2')
 data.setCell(0, 2, 'com.macrosoftinc.automation.LoginTest')
-data.setCell(0, 3, 22146);
+data.setCell(0, 3, 40649);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginCase2')
+data.setCell(1, 1, 'LoginCase1')
 data.setCell(1, 2, 'com.macrosoftinc.automation.LoginTest')
-data.setCell(1, 3, 15214);
+data.setCell(1, 3, 29615);
 window.suiteTableData['com.macrosoftinc.automation.LoginTest']= { tableData: data, tableDiv: 'times-div-com.macrosoftinc.automation.LoginTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-com.macrosoftinc.automation.LoginTest">
               </div> <!-- times-div-com.macrosoftinc.automation.LoginTest -->
             </div> <!-- times-div -->
@@ -239,8 +260,10 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">LoginCase2</span>
-                <span class="method-start">22162 ms</span>
+                <span class="method-start">29615 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
