@@ -1,6 +1,7 @@
 package com.macrosoftinc.automation;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +38,8 @@ public static WebDriver driver;
 		driver.findElement(By.cssSelector(".btn.btn-login")).click();
 		Thread.sleep(2000);
 		String actualTitle = driver.getTitle();
-		String expectedTitle = "My Title";
+		String expectedTitle = "MyTitle";
+		assertTrue(driver.findElement(By.id("Test")).isEnabled());
 		assertEquals(actualTitle, expectedTitle);
 		driver.close();
 	}
