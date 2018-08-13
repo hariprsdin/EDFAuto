@@ -32,7 +32,7 @@ public static WebDriver driver;
 		driver.manage().window().maximize();
 		driver.findElement(By.id("userName")).sendKeys("hprasad");
 		driver.findElement(By.id("password")).sendKeys("Test@123");
-		driver.findElement(By.cssSelector(".btn.btn-login")).click();
+		driver.findElement(By.cssSelector(".btn.btn-login1")).click();
 		Thread.sleep(2000);
 		driver.close();
 	}
