@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34496" started-at="2018-08-13T15:43:21Z" finished-at="2018-08-13T15:43:56Z">
+  <suite name="Default suite" duration-ms="50405" started-at="2018-08-13T17:29:23Z" finished-at="2018-08-13T17:30:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34496" started-at="2018-08-13T15:43:21Z" finished-at="2018-08-13T15:43:56Z">
+    <test name="Default test" duration-ms="50405" started-at="2018-08-13T17:29:23Z" finished-at="2018-08-13T17:30:14Z">
       <class name="com.macrosoftinc.automation.LoginTest">
-        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@710726a3]" name="LoginCase1" duration-ms="23351" started-at="2018-08-13T15:43:21Z" finished-at="2018-08-13T15:43:45Z">
+        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@710726a3]" name="LoginCase1" duration-ms="32816" started-at="2018-08-13T17:29:24Z" finished-at="2018-08-13T17:29:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCase1 -->
-        <test-method status="FAIL" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@710726a3]" name="LoginCase2" duration-ms="11085" started-at="2018-08-13T15:43:45Z" finished-at="2018-08-13T15:43:56Z">
+        <test-method status="FAIL" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@710726a3]" name="LoginCase2" duration-ms="17559" started-at="2018-08-13T17:29:56Z" finished-at="2018-08-13T17:30:14Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
+              <![CDATA[expected [My Title1] but found [eDriver Client Application]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [My Title] but found [eDriver Client Application]
+              <![CDATA[java.lang.AssertionError: expected [My Title1] but found [eDriver Client Application]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
