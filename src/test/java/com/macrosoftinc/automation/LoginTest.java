@@ -1,5 +1,7 @@
 package com.macrosoftinc.automation;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -32,8 +34,11 @@ public static WebDriver driver;
 		driver.manage().window().maximize();
 		driver.findElement(By.id("userName")).sendKeys("hprasad");
 		driver.findElement(By.id("password")).sendKeys("Test@123");
-		driver.findElement(By.cssSelector(".btn.btn-login1")).click();
+		driver.findElement(By.cssSelector(".btn.btn-login")).click();
 		Thread.sleep(2000);
+		String actualTitle = driver.getTitle();
+		String expectedTitle = "My Title";
+		assertEquals(actualTitle, expectedTitle);
 		driver.close();
 	}
 	
