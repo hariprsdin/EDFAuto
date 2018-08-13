@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.macrosoftinc.automation.LoginTest" duration-ms="28879" started-at="2018-08-13T09:32:59Z" finished-at="2018-08-13T09:33:28Z">
+  <suite name="com.macrosoftinc.automation.LoginTest" duration-ms="53588" started-at="2018-08-13T13:34:35Z" finished-at="2018-08-13T13:35:28Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="28879" started-at="2018-08-13T09:32:59Z" finished-at="2018-08-13T09:33:28Z">
+    <test name="Command line test" duration-ms="53588" started-at="2018-08-13T13:34:35Z" finished-at="2018-08-13T13:35:28Z">
       <class name="com.macrosoftinc.automation.LoginTest">
-        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase1" duration-ms="17350" started-at="2018-08-13T15:02:59Z" finished-at="2018-08-13T15:03:16Z">
+        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase1" duration-ms="27948" started-at="2018-08-13T19:04:35Z" finished-at="2018-08-13T19:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCase1 -->
-        <test-method status="FAIL" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase2" duration-ms="11510" started-at="2018-08-13T15:03:16Z" finished-at="2018-08-13T15:03:28Z">
+        <test-method status="FAIL" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase2" duration-ms="24944" started-at="2018-08-13T19:05:03Z" finished-at="2018-08-13T19:05:28Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-login1"}
@@ -23,7 +23,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'MAC-LAP-101', ip: '192.168.1.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\hprasad\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 3edd3525560829481af4e6de0116aa76
+Session ID: 28abc38e3f00b1b9a85dd6499d605fd2
 *** Element info: {Using=css selector, value=.btn.btn-login1}]]>
             </message>
             <full-stacktrace>
@@ -36,7 +36,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'MAC-LAP-101', ip: '192.168.1.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\hprasad\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 3edd3525560829481af4e6de0116aa76
+Session ID: 28abc38e3f00b1b9a85dd6499d605fd2
 *** Element info: {Using=css selector, value=.btn.btn-login1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
