@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.macrosoftinc.automation.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 73.121 sec <<< FAILURE!
-LoginCase2(com.macrosoftinc.automation.LoginTest)  Time elapsed: 40.655 sec  <<< FAILURE!
-java.lang.AssertionError: expected [MyTitle] but found [eDriver Client Application]
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.561 sec <<< FAILURE!
+LoginCase2(com.macrosoftinc.automation.LoginTest)  Time elapsed: 10.222 sec  <<< FAILURE!
+java.lang.AssertionError: expected [My Title] but found [eDriver Client Application]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)

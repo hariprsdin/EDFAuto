@@ -38,7 +38,7 @@ public static WebDriver driver;
 		driver.findElement(By.cssSelector(".btn.btn-login")).click();
 		Thread.sleep(1000);
 		String actualTitle = driver.getTitle();
-		String expectedTitle = "My Title1";
+		String expectedTitle = "My Title";
 		//assertTrue(driver.findElement(By.id("Test")).isEnabled());
 		assertEquals(actualTitle, expectedTitle);
 		driver.close();
