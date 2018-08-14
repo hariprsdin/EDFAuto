@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.macrosoftinc.automation.LoginTest" duration-ms="29792" started-at="2018-08-14T04:56:04Z" finished-at="2018-08-14T04:56:34Z">
+  <suite name="com.macrosoftinc.automation.LoginTest" duration-ms="44007" started-at="2018-08-14T05:02:38Z" finished-at="2018-08-14T05:03:22Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="29792" started-at="2018-08-14T04:56:04Z" finished-at="2018-08-14T04:56:34Z">
+    <test name="Command line test" duration-ms="44007" started-at="2018-08-14T05:02:38Z" finished-at="2018-08-14T05:03:22Z">
       <class name="com.macrosoftinc.automation.LoginTest">
-        <test-method status="PASS" signature="LoginCase1()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase1" duration-ms="19558" started-at="2018-08-14T10:26:04Z" finished-at="2018-08-14T10:26:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginCase1 -->
-        <test-method status="FAIL" signature="LoginCase2()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="LoginCase2" duration-ms="10215" started-at="2018-08-14T10:26:23Z" finished-at="2018-08-14T10:26:34Z">
+        <test-method status="FAIL" signature="Invalid()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="Invalid" duration-ms="19456" started-at="2018-08-14T10:32:38Z" finished-at="2018-08-14T10:32:58Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
@@ -23,7 +19,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at com.macrosoftinc.automation.LoginTest.LoginCase2(LoginTest.java:43)
+	at com.macrosoftinc.automation.LoginTest.Invalid(LoginTest.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -62,7 +58,11 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginCase2 -->
+        </test-method> <!-- Invalid -->
+        <test-method status="PASS" signature="Valid()[pri:0, instance:com.macrosoftinc.automation.LoginTest@58651fd0]" name="Valid" duration-ms="24529" started-at="2018-08-14T10:32:58Z" finished-at="2018-08-14T10:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid -->
       </class> <!-- com.macrosoftinc.automation.LoginTest -->
     </test> <!-- Command line test -->
   </suite> <!-- com.macrosoftinc.automation.LoginTest -->
